@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0E0F18;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./images/Rectangle\ 15.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+
+
+.events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.events p{
+    padding: 10px;
+}
+.events p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.secondContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location{
+    padding-right: 20px;
+}
+
+.location h3{
+    padding-bottom: 20px;
+}
+
+.location p{
+    color: rgb(195, 202, 209);
+}
+
+.social h3{
+    text-align: end;
+    padding: 10px;
+}
+
+.imgContainer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.social img{
+    width: 60px;
+    padding: 0 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .social img{
+        width: 40px;
+        padding: 0 6px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .social img{
+        width: 30px;
+        padding: 0 4px;
+    }
+  }
