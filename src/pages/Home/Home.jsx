@@ -3,12 +3,19 @@ import './Home.css'
 import logo from './logo.png'
 import lines from './lines.svg'
 import underline from './underline.svg'
-import pic from './Rectangle1.png'
-import pic2 from './Rectangle2.png'
 import box from './box.svg'
 import dots from './dots.svg'
+import { useEffect } from 'react'
 
-export const Home = () => {
+export const Home = ({ page, setPage }) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        setPage('home')
+        document.title = "Home - DCC"
+        document.getElementById("navbarNav").classList.remove("show")
+    })
+
     return (
         <div className="home-wrapper">
             <div className="header row justify-content-center">
@@ -17,11 +24,15 @@ export const Home = () => {
                 </div>
                 <div className="content col-lg-10">
                     <span>Dream <span style={{ color: "#02A89A" }}>Code</span> Conqurer</span>
-                    <span>DCC</span>
-                    <span>/ˈkəʊdə/</span>
-                    <span>An initiative of NIT Agartala to bring like-minded</span>
-                    <span>Coders and Developers together</span>
-                    <a href=''><button className='btn join-btn'>Join on Discord</button></a>
+                    <span>Developers & Coder's Club</span>
+                    <span>/dɪˈvɛləpɜːz ənd ˈkəʊdɜːz klʌb/</span>
+                    <span>An initiative of NIT Agartala to bring like-minded  </span>
+                    <span>Coders and Developers of exceptional knowledge </span>
+                    <span>and expertise together to encourage college students</span>
+                    <span> to code and compete with the world.</span>
+                    {/* <span>An initiative of NIT Agartala to bring like-minded</span>
+                    <span>Coders and Developers together</span> */}
+                    <a href='https://discord.gg/58qJhGtTaa' target='_blank'><button className='btn join-btn'>Join on Discord</button></a>
                 </div>
             </div>
             <div className="img-content">
@@ -33,24 +44,22 @@ export const Home = () => {
             </div>
             <div className='row'>
                 <div className='col-lg-3 col-md-9'>
-                    <span>We Increase awareness</span>
-                    <span>Towards plethora of opportunities such as internships, competitions, openings for collaboration in projects, and much more!</span>
-                    <span>Learn More -</span>
+                    <span>About creating awareness:</span>
+                    <span>We raise awareness of the multitude of opportunities available, such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.</span>
                 </div>
                 <div className='col-lg-5 col-md-12'>
-                    <img src={pic} alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle1.png?alt=media&token=19986571-aea3-4639-a0f5-466e3593defc' alt='' />
                     <img className='box' src={box} alt='' />
                 </div>
             </div>
             <div className='row'>
                 <div className='col-lg-5 col-md-12'>
-                    <img src={pic2} alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle2.png?alt=media&token=2aaf9083-5532-42d7-8216-6ba3f6ca5da6' alt='' />
                     <img className='box' src={dots} alt='' />
                 </div>
                 <div className='col-lg-3 col-md-9'>
-                    <span>We Provide a tech community</span>
-                    <span>Forming a global tech community where developers can converse together, share information and learn from each other. Helping you accelerate your learning & bring you closer to like – minded individuals. So, there will always be a helping hand at your side.</span>
-                    <span>Learn More -</span>
+                    <span>About tech community: </span>
+                    <span>We provide a tech community that forms a global network, connecting elite developers and coders to share their knowledge and experience, and learn from one another. Our goal is to help you maximize your learning potential and bring you closer to like-minded individuals. So, pursue your dreams and code robustly - we are here to support you every step of the way.</span>
                 </div>
             </div>
         </div>

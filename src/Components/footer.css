@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
@@ -13,6 +14,17 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 55px;
+=======
+
+.footer-wrapper{
+    background-color: #0E0F18;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./Rectangle\ 15.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 }
 
 .full{
@@ -21,6 +33,14 @@ body{
     margin: 0 10%;
 }
 
+<<<<<<< HEAD
+=======
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 .firstContainer{
     display: flex;
     justify-content: space-between;
@@ -29,7 +49,10 @@ body{
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 .events{
     display: flex;
     flex-direction: column;
@@ -76,11 +99,18 @@ body{
     padding: 0 15px;
 }
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+.events-hidden{
+    visibility: hidden;
+    position: absolute;
+}
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 
 @media screen and (max-width: 800px) {
     .firstContainer{
@@ -120,18 +150,57 @@ body{
         margin: 0 10px;
     }
 
+<<<<<<< HEAD
     body{
         position: relative;
     }
 
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
     .events{
         display: flex;
         position: absolute;
         bottom: -55px;
+<<<<<<< HEAD
         /* left: 33vw; */
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
         flex-direction: row;
         justify-content: center;
         align-items: center;
         z-index: 1;
+<<<<<<< HEAD
+=======
+        visibility: hidden;
+    }
+    
+    .events-hidden {
+        visibility: visible;
+        position: inherit;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .events-hidden span{
+        margin: 1rem 2rem;
+    }
+
+    .events-hidden span a{
+        color: #B7B9BD;
+        text-decoration: none;
+        transition: 0.5s;
+
+    }
+
+    .events-hidden span a:hover{
+        color: #b7b9bd86;
+        transition: 0.5s;
+    }
+  }
+
+  @media (max-width:1469px){
+    .logo{
+        align-items: flex-start;
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
     }
   }

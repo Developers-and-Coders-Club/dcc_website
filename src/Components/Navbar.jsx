@@ -1,7 +1,43 @@
-export const Navbar = () => {
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import logo from './logo.png'
+import menu from './hamburger.svg'
+
+import './navbar.css'
+
+export const Navbar = ({ page, setPage }) => {
+
+    useEffect(() => {
+        console.log(page)
+    })
+
     return (
-        <div>
-            <h2>navbar</h2>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <Link class="navbar-brand" to="/">
+                    <img src={logo} alt='' />
+                    Developers & Coders Club
+                </Link>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img scr={menu} alt='' />
+                    </span>
+
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <Link onClick={() => setPage('home')} class={page === 'home' ? 'nav-link active' : 'nav-link'} to="/">Home</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link onClick={() => setPage('events')} class={page === 'events' ? 'nav-link active' : 'nav-link'} to="/events">Events</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link onClick={() => setPage('about')} class={page === 'about' ? 'nav-link active' : 'nav-link'} to="/teams">Teams</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     )
 };
