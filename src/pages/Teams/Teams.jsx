@@ -273,12 +273,92 @@ export const Teams = ({ page, setPage }) => {
 
         <div className="team">
           <h4 className="heading-dark">
-            Social Media and Content Team
+            Social Media Team
           </h4>
           <div className="row1">
             {Object.keys(teamData).map((role) => {
               if (
                 role === "sm"
+              ) {
+                return teamData[role].map((roleObject) => {
+                  return (
+                    <div className="card1">
+                      <div className="photo">
+                        <img alt="profile" className="cover"
+                          src={roleObject.profile_pic}
+                        />
+                        <h6 className="profile-name">
+                          {roleObject.name}
+                        </h6>
+
+                        <h6 className="profile-role">
+                          {roleObject.tags.toUpperCase()}
+                        </h6>
+                        <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                });
+              }
+              return null;
+            })}
+          </div>
+        </div>
+
+        <div className="team">
+          <h4 className="heading-dark">
+            Graphics Team
+          </h4>
+          <div className="row1">
+            {Object.keys(teamData).map((role) => {
+              if (
+                role === "gr"
+              ) {
+                return teamData[role].map((roleObject) => {
+                  return (
+                    <div className="card1">
+                      <div className="photo">
+                        <img alt="profile" className="cover"
+                          src={roleObject.profile_pic}
+                        />
+                        <h6 className="profile-name">
+                          {roleObject.name}
+                        </h6>
+
+                        <h6 className="profile-role">
+                          {roleObject.tags.toUpperCase()}
+                        </h6>
+                        <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                });
+              }
+              return null;
+            })}
+          </div>
+        </div>
+
+        <div className="team">
+          <h4 className="heading-dark">
+            Content Team
+          </h4>
+          <div className="row1">
+            {Object.keys(teamData).map((role) => {
+              if (
+                role === "content"
               ) {
                 return teamData[role].map((roleObject) => {
                   return (

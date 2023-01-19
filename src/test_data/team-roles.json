@@ -279,7 +279,10 @@
       "linkedin": "https://www.linkedin.com/in/palak-priyadarshni-587970230",
       "github": "https://github.com/palakPriyaa",
       "tags": "Social Media"
-    },
+    }
+  ],
+
+  "gr":[
     {
       "name": "Sadhana Sharma",
       "profile_pic": "https://i.postimg.cc/X7L9SSRm/IMG20220721133532-21-UCS037-SADHANA-SHARMA.jpg",
@@ -321,7 +324,10 @@
       "linkedin": "http://www.linkedin.com/in/astha-dixit-892903229",
       "github": "https://github.com/ashthadixit03",
       "tags": "Graphic Design"
-    },
+    }
+  ],
+
+  "content": [
     {
       "name": "Prabhat Barnwal",
       "profile_pic": "https://i.postimg.cc/B6JqGk97/Snapchat-102143339-21-UPE015-Prabhat-Barnwal.jpg",
@@ -351,6 +357,8 @@
       "tags": "Content Team"
     }
   ],
+
+
   "mention": [
     {
       "name": "Tanmay Shree",
