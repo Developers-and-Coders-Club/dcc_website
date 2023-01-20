@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0E0F18;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./images/Rectangle\ 15.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 55px;
+=======
 
 .footer-wrapper{
     background-color: #0E0F18;
@@ -7,6 +24,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5rem;
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 }
 
 .full{
@@ -15,11 +33,14 @@
     margin: 0 10%;
 }
 
+<<<<<<< HEAD
+=======
 .logo{
     display: flex;
     align-items: flex-end;
 }
 
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 .firstContainer{
     display: flex;
     justify-content: space-between;
@@ -28,6 +49,10 @@
 }
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 .events{
     display: flex;
     flex-direction: column;
@@ -74,10 +99,18 @@
     padding: 0 15px;
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+=======
 .events-hidden{
     visibility: hidden;
     position: absolute;
 }
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
 
 @media screen and (max-width: 800px) {
     .firstContainer{
@@ -117,14 +150,27 @@
         margin: 0 10px;
     }
 
+<<<<<<< HEAD
+    body{
+        position: relative;
+    }
+
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
     .events{
         display: flex;
         position: absolute;
         bottom: -55px;
+<<<<<<< HEAD
+        /* left: 33vw; */
+=======
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
         flex-direction: row;
         justify-content: center;
         align-items: center;
         z-index: 1;
+<<<<<<< HEAD
+=======
         visibility: hidden;
     }
     
@@ -155,5 +201,6 @@
   @media (max-width:1469px){
     .logo{
         align-items: flex-start;
+>>>>>>> 31cadccc9a7f3e133ae2777626a0b346edb99a59
     }
   }

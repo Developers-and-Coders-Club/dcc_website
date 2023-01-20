@@ -3,7 +3,7 @@
     {
       "name": "Mayur Ray",
       "profile_pic": "https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/mayur.jpg?alt=media&token=2fab5ac4-fdbb-48ed-aa0f-4f81513703b6",
-      "linkedin": "https://www.linkedin.com/in/atul-pandey-446a50192",
+      "linkedin": "https://www.linkedin.com/in/raymayur9/",
       "github": "https://github.com/raymayur9",
       "tags": "President"
     }
@@ -32,7 +32,7 @@
       "profile_pic": "https://i.postimg.cc/G2n4TX0v/IMG-20220120-174324-463-Tanmay-Shree.jpg",
       "linkedin": "https://www.linkedin.com/in/tanmayshree",
       "github": "https://github.com/tanmayshree",
-      "tags": "Event Manager"
+      "tags": "Event Head"
     }
   ],
   "treasurer" : [
@@ -97,6 +97,13 @@
       "tags": "Lead"
     },
     {
+      "name": "Kajal Kumari ",
+      "profile_pic": "https://firebasestorage.googleapis.com/v0/b/dcc-images.appspot.com/o/DSCN1248~2%20-%20Kajal%20Kumari.JPG?alt=media&token=fe9c9cdc-c7ec-4502-89f2-dafbf8b1ccd0",
+      "linkedin": "https://www.linkedin.com/in/kajalk14",
+      "github": "https://github.com/kajalk14",
+      "tags": "Lead"
+    },
+    {
       "name": "Amit Singh Bisht",
       "profile_pic": "https://i.postimg.cc/Zqd9q1QT/IMG-20221004-161905-982-21-UCS129-Amit-Singh-Bisht.webp",
       "linkedin": "https://www.linkedin.com/in/amit-singh-bisht1",
@@ -110,13 +117,7 @@
       "github": "https://github.com/Abhishek-Verma75230",
       "tags": "Team Member"
     },
-    {
-      "name": "Parnashree Das",
-      "profile_pic": "https://i.postimg.cc/Dzr2HFDb/Screenshot-20221215-150141-Whats-App-21-UCS064-Parnashree-Das.jpg",
-      "linkedin": "https://www.linkedin.com/in/parnashreedas",
-      "github": "https://github.com/Parnashree1602",
-      "tags": "Team Member"
-    },
+
     {
       "name": "Rimi Saha",
       "profile_pic": "https://i.postimg.cc/yxQ6jPGQ/meeeeh-21-UCS081-Rimi-Saha.jpg",
@@ -173,6 +174,13 @@
       "profile_pic": "https://i.postimg.cc/2SjFV8dC/91-74249-66631-20221022-232921-Vikram-Singh.jpg",
       "linkedin": "https://www.linkedin.com/in/vikram-saini-b23790228",
       "github": "https://github.com/vikram110703",
+      "tags": "Team Member"
+    },
+    {
+      "name": "Parnashree Das",
+      "profile_pic": "https://i.postimg.cc/Dzr2HFDb/Screenshot-20221215-150141-Whats-App-21-UCS064-Parnashree-Das.jpg",
+      "linkedin": "https://www.linkedin.com/in/parnashreedas",
+      "github": "https://github.com/Parnashree1602",
       "tags": "Team Member"
     }
   ],
@@ -252,6 +260,13 @@
       "tags": "Social Media"
     },
     {
+      "name": "Debadatta Bhattacharya",
+      "profile_pic": "https://firebasestorage.googleapis.com/v0/b/dcc-images.appspot.com/o/IMG_20220930_015450_728%20-%20DEBADATTA%20BHATTACHARYA.jpg?alt=media&token=49f8f3e2-17d0-4ecf-afd5-71676fae2846",
+      "linkedin": "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bm3lA7hzsQvOGbbXYlfA3hg%3D%3D",
+      "github": "https://github.com/Deba0",
+      "tags": "Social Media"
+    },
+    {
       "name": "Dhruv Rohatgi",
       "profile_pic": "https://i.postimg.cc/bv7tHznD/dhruv-21-UCS182-Dhruv-Rohatgi-DR.jpg",
       "linkedin": "https://www.linkedin.com/in/dhruvrohatgi28/",
@@ -264,7 +279,10 @@
       "linkedin": "https://www.linkedin.com/in/palak-priyadarshni-587970230",
       "github": "https://github.com/palakPriyaa",
       "tags": "Social Media"
-    },
+    }
+  ],
+
+  "gr":[
     {
       "name": "Sadhana Sharma",
       "profile_pic": "https://i.postimg.cc/X7L9SSRm/IMG20220721133532-21-UCS037-SADHANA-SHARMA.jpg",
@@ -306,7 +324,10 @@
       "linkedin": "http://www.linkedin.com/in/astha-dixit-892903229",
       "github": "https://github.com/ashthadixit03",
       "tags": "Graphic Design"
-    },
+    }
+  ],
+
+  "content": [
     {
       "name": "Prabhat Barnwal",
       "profile_pic": "https://i.postimg.cc/B6JqGk97/Snapchat-102143339-21-UPE015-Prabhat-Barnwal.jpg",
@@ -322,6 +343,13 @@
       "tags": "Content Team"
     },
     {
+      "name": "Deepanshi",
+      "profile_pic": "https://i.postimg.cc/KjQZQ3Ny/Whats-App-Image-2022-12-22-at-11-31-30-AM-21-UCS178-Deepanshi.png",
+      "linkedin": "https://www.linkedin.com/in/sinjiniroy15/",
+      "github": "https://github.com/Deepanshi177",
+      "tags": "Content Team"
+    },
+    {
       "name": "Aditya Raj",
       "profile_pic": "https://i.postimg.cc/761f3SDd/IMG-20221115-005142-aadi.jpg",
       "linkedin": "https://www.linkedin.com/in/aditya-raj-7a0404220",
@@ -329,13 +357,15 @@
       "tags": "Content Team"
     }
   ],
+
+
   "mention": [
     {
       "name": "Tanmay Shree",
       "profile_pic": "https://i.postimg.cc/G2n4TX0v/IMG-20220120-174324-463-Tanmay-Shree.jpg",
       "linkedin": "https://www.linkedin.com/in/tanmayshree",
       "github": "https://github.com/tanmayshree",
-      "tags": "Event Manager"
+      "tags": "Event Head"
     },
     {
       "name": "Rishita Bose",
