@@ -6,6 +6,7 @@ import { Navbar } from './Components/Navbar';
 import { Footer } from './Components/Footer';
 import { Home } from './pages/Home/Home';
 import { useState } from 'react';
+
 import Timeline from './pages/Timeline/Timeline';
 
 function App() {
