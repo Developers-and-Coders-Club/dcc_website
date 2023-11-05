@@ -32,7 +32,7 @@ export const Events = ({ page, setPage }) => {
 
     const fetchDataWithInterval = () => {
       fetchData();
-      const intervalId = setInterval(fetchData, 20000);
+      const intervalId = setInterval(fetchData, 7200000);
       return () => clearInterval(intervalId);
     };
     fetchDataWithInterval();
